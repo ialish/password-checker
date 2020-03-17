@@ -3,7 +3,7 @@
 This script is checking in a secure way if a password has ever been hacked.
 
 ### Module needed
-*requests*<br>
+**requests**<br>
 `$ pip install requests`
 
 ### Running the script
