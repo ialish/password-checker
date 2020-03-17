@@ -4,13 +4,13 @@ This script is checking, in a secure way, if a password has ever been hacked.
 
 ### Module needed
 **requests**<br>
-`$ pip install requests`
+```$ pip install requests```
 
 ### Running the script
-`$ python checkmypass.py <1st-password-to-check> <2nd-password>` . . .
+```$ python checkmypass.py <1st-password-to-check> <2nd-password>``` . . .
 
 ### Example
-```bash
+```
 $ python password_checker.py hello password123 kjfdklgjdfjd
 hello was found 253581 times
 password123 was found 121251 times
