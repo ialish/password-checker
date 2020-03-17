@@ -9,9 +9,7 @@ $ pip install requests
 ```
 
 ### Running the script
-```
-$ python checkmypass.py <1st-password-to-check> <2nd-password>
-``` . . .
+`$ python checkmypass.py <1st-password-to-check> <2nd-password>'. . .
 
 ### Example
 ```
