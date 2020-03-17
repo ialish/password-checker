@@ -1,8 +1,12 @@
+# Password Checker
 ## Password Checker
 
 This password checker is a secure way to check if the password has ever been hacked.
 
-**From the terminal:**<br>
+**Module needed:** requests<br>
+`$ pip install requests`
+
+**Running the script**<br>
 `$ python checkmypass.py <1st-password-to-check> <2nd-password>` . . .
 
 **Example**<br>
@@ -12,9 +16,9 @@ This password checker is a secure way to check if the password has ever been hac
 `kjfdklgjdfjd was NOT found`<br>
 
 ### Searching by range
-Source: [https://haveibeenpwned.com/API/v3](https://haveibeenpwned.com/API/v3)
+Source: [https://haveibeenpwned.com/API/v3](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
 
-In order to protect the value of the source password being searched for, Pwned Passwords also implements a k-Anonymity model that allows a password to be searched for by partial hash. This allows the first 5 characters of a SHA-1 password hash (not case-sensitive) to be passed to the API (testable by clicking here):
+In order to protect the value of the source password being searched for, Pwned Passwords also implements a [k-Anonymity model](https://en.wikipedia.org/wiki/K-anonymity) that allows a password to be searched for by partial hash. This allows the first 5 characters of a SHA-1 password hash (not case-sensitive) to be passed to the API (testable by clicking here):
 GET https://api.pwnedpasswords.com/range/{first 5 hash chars}
 (SHA1 Hash Generator)
 
