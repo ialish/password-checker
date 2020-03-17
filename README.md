@@ -20,7 +20,7 @@ kjfdklgjdfjd was NOT found
 ```
 
 ## Searching by range
-Source: [https://haveibeenpwned.com/](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
+Source: [https://haveibeenpwned.com/API/v3](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
 
 In order to protect the value of the source password being searched for, Pwned Passwords also implements a [k-Anonymity model](https://en.wikipedia.org/wiki/K-anonymity) that allows a password to be searched for by partial hash. This allows the first 5 characters of a SHA-1 password hash (not case-sensitive) to be passed to the API (testable by clicking [here](https://api.pwnedpasswords.com/range/21BD1)):<br>
 *`GET https:<span></span>//api.pwnedpasswords.com/range/{first 5 hash chars}`*<br>
