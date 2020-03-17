@@ -1,6 +1,6 @@
 # Password Checker
 
-This password checker is a secure way to check if the password has ever been hacked.
+This script is checking in a secure way if a password has ever been hacked.
 
 ### Module needed
 *requests*<br>
