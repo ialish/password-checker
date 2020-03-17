@@ -3,7 +3,7 @@
 This password checker is a secure way to check if the password has ever been hacked.
 
 From the terminal:<br>
-`$ python checkmypass.py <1st-password-to-check> <2nd-password>` ...
+`$ python checkmypass.py <1st-password-to-check> <2nd-password>` . . .
 
 ### Example
 `$ python password_checker.py hello password123 kjfdklgjdfjd`<br>
