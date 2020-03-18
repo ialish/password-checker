@@ -43,6 +43,6 @@ def main(args):
 	# 				print(f'{password} was NOT found')
 	# ########################
 
-# Run if it's the main file and not if it's beeing imported
+# Will run if it's the main file, and will not run if it's beeing imported
 if __name__ == '__main__':
 	main(sys.argv[1:])
