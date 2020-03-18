@@ -2,14 +2,14 @@
 
 This script is checking, in a secure way, if a password has ever been hacked.
 
-### Module to install
+## Module to install
 **_requests_**<br>
 ```
 $ pip install requests
 ```
 
 ## Running the script
-### Option 1 (less secure)
+### Option 1
 **Input the password(s) in the CLI**<br>
 `$ python password_checker.py <1st-password-to-check> <2nd-password> . . .`
 

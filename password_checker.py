@@ -23,7 +23,7 @@ def pwned_api_check(password):
 	return get_password_leaks_count(response, suffix)
 
 def main(args):
-	# Option 1 (less secure)
+	# Option 1
 	for password in args:
 		count = pwned_api_check(password)
 		if count:
