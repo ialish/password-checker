@@ -46,3 +46,4 @@ def main(args):
 # Will run if it's the main file, and will not run if it's beeing imported
 if __name__ == '__main__':
 	main(sys.argv[1:])
+.
