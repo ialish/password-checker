@@ -25,9 +25,9 @@ kjfdklgjdfjd was NOT found
 **Input the password(s) in the _password_input.txt_ file**<br>
 `<1st-password-to-check>`<br>
 `<2nd-password>`<br>
-`. . .`<br>
+`. . .`
 
-**Example**<br>
+<br>**Example**<br>
 ```
 hello
 password123
