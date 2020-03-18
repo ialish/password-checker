@@ -22,11 +22,11 @@ password123 was found 121251 times
 kjfdklgjdfjd was NOT found
 ```
 
-### Option 1 (less secure)
-**Input the password(s) in the password_input.txt file:**<br><br>
+### Option 2 (more secure)
+**Input the password(s) in the _password_input.txt_ file:**<br>
 
 **Example:**<br>
-_passwords_input.txt_
+_passwords_input.txt_<br>
 `hello`<br>
 `password123`<br>
 `kjfdklgjdfjd`
