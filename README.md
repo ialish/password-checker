@@ -10,11 +10,10 @@ $ pip install requests
 
 ## Running the script
 ### Option 1 (less secure)
-**Input the password(s) in the CLI:**<br>
+**Input the password(s) in the CLI**<br>
 `$ python password_checker.py <1st-password-to-check> <2nd-password> . . .`
 
 **Example**<br>
-_Terminal:_
 ```
 $ python password_checker.py hello password123 kjfdklgjdfjd
 hello was found 253581 times
@@ -23,10 +22,12 @@ kjfdklgjdfjd was NOT found
 ```
 
 ### Option 2 (more secure)
-**Input the password(s) in the _password_input.txt_ file:**<br>
+**Input the password(s) in the _password_input.txt_ file**<br>
+`<1st-password-to-check>`<br>
+`<2nd-password>`<br>
+`. . .`<br>
 
 **Example**<br>
-_passwords_input.txt:_
 ```
 hello
 password123
