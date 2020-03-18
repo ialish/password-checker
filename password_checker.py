@@ -23,13 +23,25 @@ def pwned_api_check(password):
 	return get_password_leaks_count(response, suffix)
 
 def main(args):
+	# Option 1 (less secure)
 	for password in args:
 		count = pwned_api_check(password)
 		if count:
 			print(f'{password} was found {count} times')
 		else:
 			print(f'{password} was NOT found')
+	########################
 
+	# # Option 2 (more secure)
+	# with open('passwords_input.txt') as f:
+	# 	for line in f:
+	# 		for password in line.split():
+	# 			count = pwned_api_check(password)
+	# 			if count:
+	# 				print(f'{password} was found {count} times')
+	# 			else:
+	# 				print(f'{password} was NOT found')
+	# ########################
 
 # Run if it's the main file and not if it's beeing imported
 if __name__ == '__main__':
