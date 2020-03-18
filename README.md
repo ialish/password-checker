@@ -13,7 +13,7 @@ $ pip install requests
 **Input the password(s) in the CLI**<br>
 `$ python password_checker.py <1st-password-to-check> <2nd-password> . . .`
 
-**Example**<br>
+<br>**Example**<br>
 ```
 $ python password_checker.py hello password123 kjfdklgjdfjd
 hello was found 253581 times
