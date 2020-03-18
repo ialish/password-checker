@@ -7,7 +7,7 @@ This script is checking, in a secure way, if a password has ever been hacked.
 ```
 $ pip install requests
 ```
-
+.
 ## Running the script
 ### Option 1
 **Input the password(s) in the CLI**<br>
