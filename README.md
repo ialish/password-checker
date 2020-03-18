@@ -23,7 +23,7 @@ kjfdklgjdfjd was NOT found
 ```
 
 ### Option 1 (less secure)
-**Input the password(s) in the passwords_input.txt file:**<br><br>
+**Input the password(s) in the password_input.txt file:**<br><br>
 
 **Example:**<br>
 _passwords_input.txt_
