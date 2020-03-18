@@ -13,8 +13,8 @@ $ pip install requests
 **Input the password(s) in the CLI:**<br>
 `$ python password_checker.py <1st-password-to-check> <2nd-password> . . .`
 
-**Example:**<br>
-_Terminal_
+**Example**<br>
+_Terminal:_
 ```
 $ python password_checker.py hello password123 kjfdklgjdfjd
 hello was found 253581 times
@@ -25,11 +25,13 @@ kjfdklgjdfjd was NOT found
 ### Option 2 (more secure)
 **Input the password(s) in the _password_input.txt_ file:**<br>
 
-**Example:**<br>
-_passwords_input.txt_<br>
-`hello`<br>
-`password123`<br>
-`kjfdklgjdfjd`
+**Example**<br>
+_passwords_input.txt:_
+```
+hello
+password123
+kjfdklgjdfjd
+```
 
 ## Searching by range
 Source: [https://haveibeenpwned.com/API/v3](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
