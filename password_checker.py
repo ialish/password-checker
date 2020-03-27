@@ -31,7 +31,6 @@ def main(args):
 		else:
 			print(f'{password} was NOT found')
 	
-	# ########################
 	# # Option 2 (more secure)
 	# with open('passwords_input.txt') as f:
 	# 	for line in f:
@@ -41,7 +40,6 @@ def main(args):
 	# 				print(f'{password} was found {count} times')
 	# 			else:
 	# 				print(f'{password} was NOT found')
-	# ########################
 
 # Will run if it's the main file, and will not run if it's beeing imported
 if __name__ == '__main__':
