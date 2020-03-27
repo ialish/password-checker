@@ -31,7 +31,7 @@ def main(args):
 		else:
 			print(f'{password} was NOT found')
 	
-	#######################
+	########################
 	# # Option 2 (more secure)
 	# with open('passwords_input.txt') as f:
 	# 	for line in f:
